@@ -1,3 +1,9 @@
+main{
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
 .container{
     background-color: rgb(61, 61, 61);
     height:550px;
@@ -27,61 +33,105 @@
 
 /* PRIMEIRA FILEIRA DE TECLAS */
 .ceKey, .cKey, .xKey, .divideKey{
-    background-color: green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
     width: 60px;
     height: 60px;
     margin-left: 12px;
     margin-top: 10px;
     border-radius: 10px;
-    color: white;
-    font-size: 2.5em;
-    text-align: center;
 }
 
-.divideKey{
-    font-size:4em;
+.ceKey, .cKey{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 2.9em;
+}
+
+.backspaceSvg, .divideSvg{
+    fill:white;
 }
 
 /* SEGUNDA FILEIRA DE TECLAS */
 .sevenKey, .eightKey, .nineKey, .asteriskKey{
-    background-color: green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
     width: 60px;
     height: 60px;
     margin-left: 12px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.sevenSvg, .eightSvg, .nineSvg, .asteriskSvg{
+    fill: white;
 }
 
 /* TERCEIRA FILEIRA DE TECLAS */
 .fourKey, .fiveKey, .sixKey, .minusKey{
-    background-color: green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
     width: 60px;
     height: 60px;
     margin-left: 12px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.fourSvg, .fiveSvg, .sixSvg, .minusSvg{
+    fill:white;
 }
 
 /* QUARTA FILEIRA DE TECLAS */
 .oneKey, .twoKey, .threeKey, .plusKey{
-    background-color: green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
     width: 60px;
     height: 60px;
     margin-left: 12px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.oneSvg, .twoSvg, .threeSvg, .plusSvg{
+    fill: white;
 }
 
 /* QUINTA FILEIRA DE TECLAS */
 .zeroKey{
-    background-color: green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
     height: 60px;
     width:205px;
     border-radius: 10px;
     margin-left: 12px;
+    text-align: center;
+}
+
+.zeroSvg, .equalSvg{
+    fill: white;
 }
 
 .equalKey{
-    background-color: green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
     width: 60px;
     height: 60px;
     margin-left: 12px;
     border-radius: 10px;
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
 }
