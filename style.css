@@ -1,3 +1,8 @@
+body{
+    background-image: linear-gradient(to bottom right,#0f193b,#6777b1);
+    min-height: 100vh;
+}
+
 main{
     display:flex;
     justify-content: center;
@@ -31,6 +36,11 @@ main{
     flex-wrap: wrap;
 }
 
+.keys div:hover{
+    background-color: white;
+    color:black;
+}
+
 /* PRIMEIRA FILEIRA DE TECLAS */
 .ceKey, .cKey, .xKey, .divideKey{
     display:flex;
@@ -42,16 +52,13 @@ main{
     margin-left: 12px;
     margin-top: 10px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .ceKey, .cKey{
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-size: 2.9em;
-}
-
-.backspaceSvg, .divideSvg{
-    fill:white;
 }
 
 /* SEGUNDA FILEIRA DE TECLAS */
@@ -65,10 +72,7 @@ main{
     margin-left: 12px;
     border-radius: 10px;
     text-align: center;
-}
-
-.sevenSvg, .eightSvg, .nineSvg, .asteriskSvg{
-    fill: white;
+    cursor: pointer;
 }
 
 /* TERCEIRA FILEIRA DE TECLAS */
@@ -82,10 +86,7 @@ main{
     margin-left: 12px;
     border-radius: 10px;
     text-align: center;
-}
-
-.fourSvg, .fiveSvg, .sixSvg, .minusSvg{
-    fill:white;
+    cursor: pointer;
 }
 
 /* QUARTA FILEIRA DE TECLAS */
@@ -99,10 +100,7 @@ main{
     margin-left: 12px;
     border-radius: 10px;
     text-align: center;
-}
-
-.oneSvg, .twoSvg, .threeSvg, .plusSvg{
-    fill: white;
+    cursor: pointer;
 }
 
 /* QUINTA FILEIRA DE TECLAS */
@@ -116,10 +114,7 @@ main{
     border-radius: 10px;
     margin-left: 12px;
     text-align: center;
-}
-
-.zeroSvg, .equalSvg{
-    fill: white;
+    cursor: pointer;
 }
 
 .equalKey{
@@ -134,4 +129,5 @@ main{
     color: white;
     font-size: 2.5em;
     text-align: center;
+    cursor: pointer;
 }
