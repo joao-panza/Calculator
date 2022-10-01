@@ -2,6 +2,10 @@
 const ce = document.querySelector('.ceKey')
 const c = document.querySelector('.cKey')
 
+function preencher(valor){
+    document.getElementsByClassName('display').value += valor
+}
+
 // Zero button - SVG hover
 const zero = document.querySelector('.zeroKey')
 const zeroSvg = document.querySelector('.zeroSvg')
@@ -19,6 +23,7 @@ const one = document.querySelector('.oneKey')
 const oneSvg = document.querySelector('.oneSvg')
 one.addEventListener("mouseover",()=>{oneSvg.style.fill="black"})
 one.addEventListener("mouseout",()=>{oneSvg.style.fill="white"})
+one.addEventListener("click",preencher(1))
 
 // Two button - SVG hover
 const two = document.querySelector('.twoKey')
