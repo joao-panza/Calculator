@@ -17,6 +17,8 @@ main{
     padding-top: 25px;
 }
 
+
+
 .display{
     background-color: black;
     font-family: 'Roboto Condensed', sans-serif;
@@ -28,6 +30,12 @@ main{
     color: white;
     display:flex;
     align-items: center;
+    border:none;   
+    text-align: right;
+}
+
+.display:focus{
+    outline:none
 }
 
 .keys{
@@ -47,7 +55,7 @@ main{
 }
 
 /* PRIMEIRA FILEIRA DE TECLAS */
-.ceKey, .cKey, .xKey, .divideKey{
+.dotKey, .cKey, .xKey, .divideKey{
     display:flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +68,7 @@ main{
     cursor: pointer;
 }
 
-.ceKey, .cKey{
+.dotKey, .cKey{
     font-family: 'Roboto Condensed', sans-serif;
     color: white;
     font-size: 2.9em;
