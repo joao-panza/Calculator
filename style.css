@@ -66,6 +66,7 @@ main{
     margin-top: 10px;
     border-radius: 10px;
     cursor: pointer;
+    user-select: none;
 }
 
 .dotKey, .cKey{
